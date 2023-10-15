@@ -1,0 +1,40 @@
+.container {
+    margin: auto;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+    position: relative;
+    bottom: 10px;
+    background-color: yellow;
+}
+
+.name{
+    margin-left: 10px;
+}
+
+.container ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    font-size: larger;
+    color: black;
+    padding-top: 10px;
+    transform: 0.5s ;
+}
+
+.container ul li a{
+    text-decoration: none;
+    line-height: 10px;
+
+}
+
+.container ul li :hover {
+    text-decoration: underline;
+    color:black;
+    
+    
+}
