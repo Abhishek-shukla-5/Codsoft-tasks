@@ -1,3 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+
+}
+
+body{
+    background-image: url("img5.jpeg");
+    background-size: cover;
+
+}
 .container {
     margin: auto;
     padding: 0px;
@@ -8,7 +20,12 @@
     padding-top: 0%;
     position: relative;
     bottom: 10px;
-    background-color: yellow;
+    background-color:transparent;
+    backdrop-filter: 100px;
+    top: 10px;
+    /* background-color: yellow; */
+    /* padding: 15px 50px;
+    overflow: hidden; */
 }
 
 .name{
@@ -28,13 +45,70 @@
 
 .container ul li a{
     text-decoration: none;
-    line-height: 10px;
-
+    color: black;
+    font-weight: 400;
 }
 
-.container ul li :hover {
-    text-decoration: underline;
+.container ul li :hover{
     color:black;
-    
-    
+    border-radius: 10px;
+    bottom: -10px;
+    font-size: x-large;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+.container ul li i {
+    margin-right: 8px;
+}
+
+.main{
+    margin-top: 35px;
+    background-color: pink;
+    height: 80vh;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    border-radius:50px;
+    
+    box-shadow: 10px 10px blue;
+    display: flex;
+    
+
+}
+
+.img1{
+   
+  
+    background-image: url("img.jpeg");
+    background-size: cover;
+    
+    width: 50%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius:50px ;
+    
+ 
+
+
+}
+.info_main{
+    width: 50%;
+    background-color:lightskyblue;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.info_main p{
+    text-align: left;
+    line-height: 40px;
+    padding: 20px 10px 40px 10px;
+}
+
+.info_main h2 {
+    text-align: left;
+    padding: 20px 0px 6px 10px;
+}
+
+
