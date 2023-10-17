@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("img5.jpeg");
+    background-image: url("img4.jpeg");
     background-size: cover;
 
 }
@@ -30,6 +30,7 @@ body{
 
 .name{
     margin-left: 10px;
+    color:whitesmoke ;
 }
 
 .container ul li {
@@ -38,19 +39,19 @@ body{
     text-align: center;
     margin-right: 50px;
     font-size: larger;
-    color: black;
+    color: white;
     padding-top: 10px;
     transform: 0.5s ;
 }
 
 .container ul li a{
     text-decoration: none;
-    color: black;
+    color:whitesmoke;
     font-weight: 400;
 }
 
 .container ul li :hover{
-    color:black;
+    color:gold;
     border-radius: 10px;
     bottom: -10px;
     font-size: x-large;
@@ -73,7 +74,7 @@ body{
     display: flex;
     border-radius:50px;
     
-    box-shadow: 10px 10px blue;
+    box-shadow: 10px 10px red;
     display: flex;
     
 
@@ -88,6 +89,8 @@ body{
     width: 50%;
     border-bottom-left-radius: 50px;
     border-top-left-radius:50px ;
+    box-shadow: 10px 10px gold;
+    
     
  
 
@@ -95,7 +98,7 @@ body{
 }
 .info_main{
     width: 50%;
-    background-color:lightskyblue;
+    background-color:black;
     cursor: pointer;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -104,11 +107,22 @@ body{
     text-align: left;
     line-height: 40px;
     padding: 20px 10px 40px 10px;
+    color: antiquewhite;
+    font-size: medium;
 }
 
 .info_main h2 {
     text-align: left;
     padding: 20px 0px 6px 10px;
+    color: red;
+}
+
+.experience{
+    display: inline-block;
+    display: flex;
+    margin-top: 500px ;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 
