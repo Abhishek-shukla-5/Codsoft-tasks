@@ -279,5 +279,42 @@ section:nth-child(odd){
 h5{
     font-weight: 600;
 }
+ 
+
+
+/* .container {
+  width: 100%; 
+  background-color: #ddd; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.skills {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px; /* Add bottom padding */
+  /* color: white; White text color */
+  /* justify-content: flex-start;
+} */
+/* 
+.html {width: 90%; background-color: #4CAF50;} 
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 60%; background-color: #808080;}  */ 
+
+.expi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.card {
+    height: 100px;
+    width: 600px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
 
 
